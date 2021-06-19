@@ -7,6 +7,7 @@ public class EmployeeObjects {
     public static void main(String[] args) {
         Employee developer= new Employee();
         developer.jobTitle="Java Developer";
+        //
         System.out.println("developer.calculateSalary(55.0) = " + developer.calculateSalary(55.0));
         System.out.println("developer.toString() = " + developer.toString());
         System.out.println("developer:"+ developer);
